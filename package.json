@@ -17,8 +17,8 @@
   "scripts": {
     "lint": "oxfmt && oxlint --fix",
     "lint:check": "oxfmt --check && oxlint",
-    "dev": "quasar dev",
-    "build": "quasar build",
+    "dev": "quasar dev -m ssr",
+    "build": "quasar build -m ssr",
     "postinstall": "quasar prepare --silent"
   },
   "dependencies": {
