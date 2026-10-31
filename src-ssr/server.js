@@ -68,7 +68,7 @@ export const listen = defineSsrListen(
     if (import.meta.env.QUASAR_DEV && devHttpsOptions) {
       const https = await import('node:https')
       const server = https.createServer(devHttpsOptions, app)
-      return server.listen(port)
+      return server.listen(process.env.PORT || port)
     }
 
     /**
