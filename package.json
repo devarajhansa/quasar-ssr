@@ -19,7 +19,7 @@
     "lint:check": "oxfmt --check && oxlint",
     "dev": "quasar dev -m ssr",
     "build1": "quasar build -m ssr",
-    "build": "quasar build -m ssr && cd dist/ssr && npm install --production",
+    "build": "quasar build -m ssr && cd dist/ssr && npm install --omit=dev",
     "postinstall": "quasar prepare --silent"
   },
   "dependencies": {
