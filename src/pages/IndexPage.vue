@@ -7,7 +7,7 @@
         style="width: 200px; height: 200px"
       />
 
-      <div>Testing</div>
+
       <q-btn
         class="q-mt-md"
         color="primary"
