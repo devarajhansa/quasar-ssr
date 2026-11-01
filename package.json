@@ -18,7 +18,8 @@
     "lint": "oxfmt && oxlint --fix",
     "lint:check": "oxfmt --check && oxlint",
     "dev": "quasar dev -m ssr",
-    "build": "quasar build -m ssr",
+    "build1": "quasar build -m ssr",
+    "build": "quasar build -m ssr && cd dist/ssr && npm install --production",
     "postinstall": "quasar prepare --silent"
   },
   "dependencies": {
