@@ -110,6 +110,7 @@ export default defineConfig((/* ctx */) => {
        * (gets superseded if process.env.PORT is specified at runtime)
        */
       prodPort: 3000,
+      prodHost: '0.0.0.0',
       middlewares: [
         'render' // keep this as last one
       ]
