@@ -6,7 +6,7 @@
         src="~@/assets/quasar-logo-vertical.svg"
         style="width: 200px; height: 200px"
       />
-
+<div>TEST</div>
       <q-btn
         class="q-mt-md"
         color="primary"
