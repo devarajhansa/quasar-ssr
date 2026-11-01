@@ -109,7 +109,7 @@ export default defineConfig((/* ctx */) => {
        * The default port that the production server should use
        * (gets superseded if process.env.PORT is specified at runtime)
        */
-      prodPort: process.env.PORT || 3000,
+      prodPort: 3000,
       middlewares: [
         'render' // keep this as last one
       ]
