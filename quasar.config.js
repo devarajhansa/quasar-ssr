@@ -55,9 +55,8 @@ export default defineConfig((/* ctx */) => {
 
         // Add the new allowed host here
         viteConf.server.allowedHosts = [
-          'quasar-ssr.onrender.com',
-          'quasar-ssr-sqw8.onrender.com',
-          'quasar-ssr.runasp.net'
+          '.onrender.com',
+          '.runasp.net'
         ]
       },
 
